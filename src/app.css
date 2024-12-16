@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Lexend";
+  src: url("$lib/assets/font/Lexend-ExtraBold.ttf");
+  font-weight: 800;
+  line-height: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("$lib/assets/font/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("$lib/assets/font/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("$lib/assets/font/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("$lib/assets/font/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("$lib/assets/font/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "All-Gender-Bold";
+  src: url("$lib/assets/font/All-Genders-Bold-v4.otf");
+  unicode-range: U+600 –6FF;
+}
+
+@font-face {
+  font-family: "All-Gender-Medium";
+  src: url("$lib/assets/font/All-Genders-Regular-v4.otf");
+  unicode-range: U+600 –6FF;
+}
+
+@font-face {
+  font-family: "All-Gender-Regular";
+  src: url("$lib/assets/font/All-Genders-Light-v4.otf");
+  unicode-range: U+600 –6FF;
+}
+
+/* **** */
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-Bold.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-SemiBold.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-SemiBold.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-Plain.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-SemiBold.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "All-Gender-Bold";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-Bold.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "All-Gender-Medium";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-Plain.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "All-Gender-Regular";
+  src: url("$lib/assets/font/Bahij_TheSansArabic-Light.ttf");
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* html {
+  overflow: hidden;
+} */
+
+body {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  line-height: normal;
+
+  background: #100613;
+}
